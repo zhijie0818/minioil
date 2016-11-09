@@ -1,0 +1,111 @@
+
+/*****notice*****/
+/****notice开始*****/
+.bg_notce{height:40px;background: url(../imgs/notice.png) bottom no-repeat;}
+.notice{margin:auto;height:40px;width: 100%;position:relative;}
+.notice h1{ display:block;float:left;font-size:15px;color: black ;margin-top:0px;height:40px;line-height:40px;}
+.notice_roll {  height:40px;width:100%; margin:auto;left:13%; line-height:40px;position:absolute;float:left}
+.notice_roll li{ float:left;list-style:none;width:200px;}
+.notice_div1{width:90%;height:40px;line-height:40px;overflow:hidden;white-space:nowrap;}
+.notice_div2{width:auto; height:20px;font-size:12px;}
+.notice_div2 a{ color:black;}
+.notice_roll a:hover{ color: #B42738; }
+/***notice结束***/
+/*获奖名单*/
+.box .get_list{ color: white; font-weight:bold; }
+.get_list{ color: white; }
+.arrows{ height: 50px; width: 50px; position: absolute; bottom: 42% }
+.pre{ left: 12%; }
+.arrows img{ width: 100%; height: 100% }
+.next{ right: 12%; }
+.awards_list_bg { background: url(../imgs/s_bg.png);  background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;}
+.sm_banner{ height: 600px;position: relative;  }
+.carousel{ height: 380px; width: 100%; }
+.carousel_title{ text-align: center; padding-top:30px; }
+.people_list{ height: 200px; width: 100%;  margin-top: 80px;}
+.people_list ul{ width: 100%; height: 200px;  padding-top: 14px; padding-left: 23px ; float: left;}
+.people_list li{ float: left;height: 170px ;width:50%;list-style: none; }
+.people_img{ background-color: black;}
+.popele_infor{background-color: white;}
+.month_list{ position: absolute; left: 30%; bottom: 66px; width: 98%}/*left: 2%;width: 98%*/
+.month_list span{ padding-right: 2.5%; padding-left: 2.5%; color: white; cursor:pointer; font-size: 14px;}
+.month_list .current{color: #FEC21C;}
+.list_left { padding-left:0%!important; }
+.list_right{ padding-left: 0%!important }
+.list_left span{ padding-left: 4%; padding-right:4%;font-weight: bold; }
+.list_right span{ padding-left: 4%; padding-right:3%; }
+.popele_infor{ padding-right: 3%; padding-left: 3%; }
+.popele_infor h4{ margin-top: 66px; font-weight: bold; }
+.popele_infor .p1{ margin-top: 20px;font-size: 14px; }
+.popele_infor .p2{ margin-top: -2px; font-size: 14px; color: #DB3445; font-weight: 600}
+/*大赛奖项*/
+.awards_show{ text-align: center; padding-top: 40px; font-size: 12px;}
+@media only screen and (min-width:320px) and (max-width:414px){
+	/*获奖名单*/
+.people_list ul{ height: 200px!important; width: 100%!important }
+.people_list{ margin-top: 30px!important;  height: 100px!important}
+.popele_infor h4{ margin-top: 60px }
+.month_list{bottom: -61%!important;}
+.awards_list_bg{ height: 835px!important }
+.carousel_title{padding-top: 23px!important}
+	/*公告栏*/
+.notice_div1{ margin-left: 23%!important; }
+.notice_roll{ width: 85%!important; }	
+}
+@media only screen and (min-width:1024px) and (max-width:1152px){
+	/*公告栏*/
+	.notice_roll{ width: 95%; left: 16%; }	
+}
+@media only screen and (min-width:1152px) and (max-width:1280px){
+	/*获奖名单月份选择*/
+	.list_left span{ padding-left: 5%; }
+	.list_right span{ padding-left: 3%; }
+	/*获奖名单中左右箭头*/
+	.pre{ left: 0% }
+	.next{ right: 0%}
+	/*公告*/
+	.notice_roll{ width: 95%; left: 16%; }
+}
+@media only screen and (min-width:1280px) and (max-width:1400px){
+	/*获奖名单中左右箭头*/
+	.pre{ left: 2% }
+	.next{ right: 2% }
+}
+@media only screen and (min-width:1400px) and (max-width:1580px){
+	/*获奖名单中左右箭头*/
+	.pre{ left: 2% }
+	.next{ right: 2% }
+}
+@media screen and (max-width:1024px){
+/*********公告************/
+.notice{ width: 100%;}
+.notice h1{ margin-left: -22px;}
+.notice_div1{width: 80%; margin-left: 6% }
+/*.w_nav_menu { position:absolute; right:1.5em; top:1em;  width:3em; height:3em; z-index:100;}
+.w_wap_mud_show { background:url(../imgs/navcolse.png) no-repeat; width:100%; height:3em; z-index:100; background-size:2.5em; display:block;}
+.w_wap_mud_colse { position:absolute; background:url(../imgs/wap_mu.png)  no-repeat;width:3em; height:3em; z-index:100;background-size:2em; }*/
+/*获奖名单栏*/
+.arrows{ bottom:83%; height: 30px; width: 30px;  }
+.awards_list_bg{ height: 866px }
+/*获奖名单中左右箭头*/
+.pre{ left: 8%; z-index: 1; }
+.next{ right: 8% ;z-index: 1; }
+.month_list{left:0%;width: 100%;bottom: -70%;}
+.month_list span{ padding-right: 5.5%; padding-left: 5.5%; font-size: 16px}
+.carousel_title{ font-size: 16px; }
+/*大赛简介*/
+.one{font-size: 14px}
+.infor{ padding-left: 5px; padding-right:5px; }
+/*大赛奖项*/
+.awards_show{font-size: 12px;}
+/*获奖名单*/
+.carousel_title{ padding-top: 28px; }
+.people_list{ margin-top: 40px; }
+.people_list ul{ padding-left: 0px; height: 215px; float: none; margin:auto; width: 70%}
+.people_list li{ height: 90%; }
+.sm_banner{ height: 500px; }
+.list_left { text-align: center; }
+.list_right{text-align: center; margin-top:20px;}
+.carousel{ height: 300px }
+li.popele_infor{ font-size: 12px; }
+} 

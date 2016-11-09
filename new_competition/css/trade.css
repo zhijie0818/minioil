@@ -1,0 +1,55 @@
+
+/*交易品种*/
+.big_table{ width: 100% }
+.big_table tr{ height: 36px; line-height: 36px; text-align: center; }
+.tb_left{text-align:left; padding-left:2%;width:25%}
+/*其他入口*/
+.other_left li img{height: 22%; width: 22%; margin-left:40%;}
+.other_left li{ list-style: none; float: left; width: 33.3% }
+.other_left li p{ margin-top: 10px; text-align: center; font-size: 15px }
+.other_left li a{ color: black; }
+/*大赛规则，排名算法*/
+.chang_top{ padding-top: 0px!important; }
+/*排名算法*/
+.sp_color{ color: #B42738; font-weight: bold; }
+.rule_img_2{ width: 46%; height: 88px; display: block; }
+.rule_img_1{width: 72%; height: 98px; display: block; }
+/*排行榜*/
+.list_2016{ padding-left: 10px;margin-left: 20px; }
+.top_50{ text-align: center;  color: #EA5519; margin-top: 20px;}
+.top_50 .tr1{border-top:1px solid #ddd; }
+.top_50 td{ line-height: 2.2; border:1px solid #ddd; }
+.top_50 .td1{ text-align: center; padding: 9px 0px; font-size: 14px; }
+.top_50 em{ text-align: center; line-height: 20px; border-radius: 5px; padding: 2px 13px ; }
+.top_50 em.e1{ background:#ea0808; color: white; }
+.top_50 em.e2{ background:#F19A19; color: white; }
+/*常见问题*/
+.ask_problem { font-size: 14px;}
+.ask_problem span{ display: block;margin-right: 10px; margin-bottom: 1px; height: 20px; width: 20px; line-height: 20px ; text-align: center;border: 1px solid black; font-size: 14px; float: left; }
+.problem_top{ margin-top: 40px; }
+@media screen and (min-width:1024px){
+	/*person_center中的个人信息部分*/
+	.personal_left li a:hover{ color: #999; background: url(../imgs/left.png) no-repeat 17%;margin-left:3%;background-size: 6% 26%; }	
+	.personal_right{ padding-top: 20px; }
+}
+@media screen and (max-width:1024px){
+	/*其他入口*/
+	.other_right{ margin-top: 100px; }
+	p{ font-size: 12px!important;}
+	/*ranking_list 排行榜*/
+	.list_2016{ margin-left: 0px; }
+	.top_list_content{ padding-right: 0px; padding-left: 0px; }
+	.top_50{ margin-top: 0px; }
+	.list_sp{ padding-left: 15px }
+	/*problem 常见问题*/
+	.ask_problem { font-size: 12px ; }
+	.ask_problem span{ margin-bottom: 0px;}
+	.problem_top{ margin-top: 30px; }
+	.rule_img_2{ width: 70%; height: 52px;}
+	.rule_img_1{width: 90%; height: 76px; display: block; }
+	/*personal_center 个人中心*/
+	.one_line{ width: 32%!important }
+	.personal_right input{ width: 200px!important; }
+	.area_content{ width: 200px!important; }
+	.sex_input input{ width: 15px!important; }
+}

@@ -1,0 +1,711 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="renderer" content="webkit"/>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css">
+	<style></style>
+</head>
+<body >
+	<div id="maodian"></div>
+	<!--nav begin-->
+	<nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" onclick="hiden()" id="top_button">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			-->
+			<div class="w_nav_menu">
+				<a href="##" class="w_wap_mud_show"></a>
+			</div>
+			<a class="navbar-brand" href="index.html">
+				<img src="imgs/logo.png" width="100%" height="100%"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right " id="nav_ul">
+				<li>
+					<a href="index.html" class="page-scroll bg_color">大赛首页</a>
+				</li>
+				<li>
+					<a href="trade.html" class="page-scroll">交易品种</a>
+				</li>
+				<li>
+					<a href="megagame_rule.html" class="page-scroll">大赛规则</a>
+				</li>
+				<li>
+					<a href="ranking_list.html" class="page-scroll">排行榜</a>
+				</li>
+				<li>
+					<a href="problem.html" class="page-scroll">常见问题</a>
+				</li>
+				<li>
+					<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006886597&aty=0&a=0&curl=&ty=1" class="page-scroll">在线客服</a>
+				</li>
+				<li>
+					<a href="#" class="page-scroll" id="nav_color_7" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">个人中心</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!--nav end-->
+
+<!--banner begin-->
+<!-- Swiper -->
+<div class="swiper-container">
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+			<img src="imgs/banner1.jpg"></div>
+		<div class="swiper-slide">
+			<img src="imgs/banner2.png"></div>
+	</div>
+	<!-- Add Pagination -->
+	<div class="swiper-pagination"></div>
+	<!-- Add Arrows -->
+
+</div>
+<!--banner end-->
+<!--notice区开始-->
+<div class="bg_notce">
+	<div class="container  container">
+		<div class="row ">
+			<div class="col-md-12">
+				<!---->
+				<div class="notice" id="notice" style="display:y">
+					<h1>
+						公&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;告 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+					</h1>
+					<div class="notice_roll">
+						<div class="notice_div1" id="roll_div1" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(roll_time, 30)">
+							<span class="notice_div2" id="roll_div2">
+								<a href="notice.html&id=76.htm#notice" tppabs="http://www.minioil.cn/contest2016/notice.html&id=76#notice"> <b>·</b>
+									&nbsp;&nbsp;关于国际金融假日交易时间调整的通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</a>
+								<a href="notice.html&id=75.htm#notice" tppabs="http://www.minioil.cn/contest2016/notice.html&id=75#notice"> <b>·</b>
+									&nbsp;&nbsp;2016年4月赛获奖公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</a>
+								<a href="notice.html&id=74.htm#notice" tppabs="http://www.minioil.cn/contest2016/notice.html&id=74#notice">
+									<b>·</b>
+									&nbsp;&nbsp;2016年度实盘大赛正式启动&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</a>
+							</span>
+							<span id="roll_div3" class="notice_div2"></span>
+						</div>
+					</div>
+				</div>
+				<!---->
+			</div>
+		</div>
+	</div>
+</div>
+<!--notice区结束-->
+<!--content begin-->
+<!--大赛简介开始-->
+<div class="content">
+	<div class="container">
+		<div class="box">
+			<h3>> 大赛简介</h3>
+			<div class="row">
+				<div class="col-md-12 details infor one">
+					&nbsp; &nbsp; &nbsp; 在握迷你油是一个低门槛、低佣金、机会多的产品，在握国际公司于2015年联合国内知名财经网站“和讯网”成功举办了第一届“在握迷你油”实盘大赛，比赛奖金高达百万以上，获得了许多金融投资者的积极参与，赛事火爆，涌现出很多优秀选手。
+					<br />
+					<br />
+					&nbsp; &nbsp; &nbsp; 本着“寻找最强操盘手”的目标，促进金融交易人才的成熟，在握国际秉承公平、公正、公开的企业精神，推出第二届“在握国际杯”迷你油实盘交易百万大奖赛。
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--大赛简介结束-->
+<!--获奖名单开始-->
+<div class="awards_list_bg">
+	<!--左右箭头-->
+	<div class="pre arrows">
+		<img src="imgs/pre.png"></div>
+	<div class="next arrows">
+		<img src="imgs/next.png"></div>
+	<div class="container sm_banner">
+		<div class="box">
+			<h3 class="get_list">> 获奖名单</h3>
+			<!--1-->
+			<div class="carousel" id="chang_month_1" >
+				<h4 class="carousel_title get_list">四月份获奖名单</h4>
+				<div class="people_list">
+
+					<!---->
+					<div class="row">
+						<div class="col-md-4">
+							<ul>
+								<li class="people_img">
+									<img src="imgs/2016-M04_01.png" width="100%" height="100%"></li>
+								<li class="popele_infor">
+									<h4>张传灵</h4>
+									<p class="p1">2016年四月赛第一名</p>
+									<p class="p2">奖金 : 5000RMB</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li class="people_img">
+									<img src="imgs/2016-M04_02.png" width="100%" height="100%"></li>
+								<li class="popele_infor">
+									<h4>张清双</h4>
+									<p class="p1">2016年四月赛第二名</p>
+									<p class="p2">奖金 : 2000RMB</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li class="people_img">
+									<img src="imgs/2016-M04_03.png" width="100%" height="100%"></li>
+								<li class="popele_infor">
+									<h4>胡绍涛</h4>
+									<p class="p1">2016年四月赛第三名</p>
+									<p class="p2">奖金 : 1000RMB</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="month_list" >
+				<div class="row">
+					<div class="col-md-12 list_left">
+						<span  id="month_1" class="current">四月</span>
+						<span  id="month_2">五月</span>
+						<span  id="month_3">六月</span>
+						<span  id="month_4">二季度</span>
+					</div>
+					<!--<div class="col-md-6 list_left">
+					<span onclick="winners(1)" id="bg_month_1" class="current">四月</span>
+					<span onclick="winners(2)" id="bg_month_2">五月</span>
+					<span onclick="winners(3)" id="bg_month_3">六月</span>
+					<span onclick="winners(4)" id="bg_month_4">二季度</span>
+					<span onclick="winners(5)" id="bg_month_5">七月</span>
+					<span onclick="winners(6)" id="bg_month_6">八月</span>
+				</div>
+				<div class="col-md-6 list_right">
+					<span onclick="winners(7)" id="bg_month_7">九月</span>
+					<span onclick="winners(8)" id="bg_month_8">三季度</span>
+					<span onclick="winners(9)" id="bg_month_9">十月</span>
+					<span onclick="winners(10)" id="bg_month_10">十一月</span>
+					<span onclick="winners(11)" id="bg_month_11">十二月</span>
+					<span onclick="winners(12)" id="bg_month_12">四季度</span>
+					<span onclick="winners(13)" id="bg_month_13">年度</span>
+				</div>
+				-->
+			</div>
+
+		</div>
+
+		<!--2-->
+		<div class="carousel" id="chang_month_2" style="display:none">
+			<h4 class="carousel_title get_list">五月份获奖名单</h4>
+			<div class="people_list">
+
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">
+								<img src="imgs/2016-M05_01.png" width="100%" height="100%"></li>
+							<li class="popele_infor">
+								<h4>陈胜文</h4>
+								<p class="p1">2016年五月赛第一名</p>
+								<p class="p2">奖金 : 5000RMB</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">
+								<img src="imgs/2016-M05_02.png" width="100%" height="100%"></li>
+							<li class="popele_infor">
+								<h4>陈彦超</h4>
+								<p class="p1">2016年五月赛第二名</p>
+								<p class="p2">奖金 : 2000RMB</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">
+								<img src="imgs/2016-M05_03.png" width="100%" height="100%"></li>
+							<li class="popele_infor">
+								<h4>李鹏鹏</h4>
+								<p class="p1">2016年五月赛第三名</p>
+								<p class="p2">奖金 : 1000RMB</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--3-->
+		<div class="carousel" id="chang_month_3" style="display:none">
+			<h4 class="carousel_title get_list">六月份获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">
+								<img src="imgs/2016-M06_01.jpg" width="100%" height="100%"></li>
+							<li class="popele_infor">
+								<h4>宋春飞</h4>
+								<p class="p1">2016年六月赛第一名</p>
+								<p class="p2">奖金 : 5000RMB</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">
+								<img src="imgs/2016-M05_02.png" width="100%" height="100%"></li>
+							<li class="popele_infor">
+								<h4>王海洋</h4>
+								<p class="p1">2016年六月赛第二名</p>
+								<p class="p2">奖金 : 2000RMB</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">
+								<img src="imgs/2016-M06_03.jpg" width="100%" height="100%"></li>
+							<li class="popele_infor">
+								<h4>唐小波</h4>
+								<p class="p1">2016年六月赛第三名</p>
+								<p class="p2">奖金 : 1000RMB</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--4-->
+		<div class="carousel" id="chang_month_4" style="display:none">
+			<h4 class="carousel_title get_list">季度获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">
+								<img src="imgs/2016-2_01.jpg" width="100%" height="100%"></li>
+							<li class="popele_infor">
+								<h4>胡绍涛</h4>
+								<p class="p1">2016年二季度赛第一名</p>
+								<p class="p2">奖金 : 30000RMB</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">
+								<img src="imgs/2016-2_02.jpg" width="100%" height="100%"></li>
+							<li class="popele_infor">
+								<h4>陈鹏龙</h4>
+								<p class="p1">2016年二季度赛第二名</p>
+								<p class="p2">奖金 : 10000RMB</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">
+								<img src="imgs/2016-2_03.jpg" width="100%" height="100%"></li>
+							<li class="popele_infor">
+								<h4>周圣果</h4>
+								<p class="p1">2016年二季度赛第三名</p>
+								<p class="p2">奖金 : 5000RMB</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--5-->
+		<div class="carousel" id="chang_month_5" style="display:none">
+			<h4 class="carousel_title get_list">7度获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">5</li>
+							<li class="popele_infor">55555</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--6-->
+		<div class="carousel" id="chang_month_6" style="display:none">
+			<h4 class="carousel_title get_list">8度获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">5</li>
+							<li class="popele_infor">55555</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--7-->
+		<div class="carousel" id="chang_month_7" style="display:none">
+			<h4 class="carousel_title get_list">9度获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">5</li>
+							<li class="popele_infor">55555</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--8-->
+		<div class="carousel" id="chang_month_8" style="display:none">
+			<h4 class="carousel_title get_list">季度获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">5</li>
+							<li class="popele_infor">55555</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--9-->
+		<div class="carousel" id="chang_month_9" style="display:none">
+			<h4 class="carousel_title get_list">10度获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">5</li>
+							<li class="popele_infor">55555</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--10-->
+		<div class="carousel" id="chang_month_10" style="display:none">
+			<h4 class="carousel_title get_list">11获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">5</li>
+							<li class="popele_infor">55555</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--11-->
+		<div class="carousel" id="chang_month_11" style="display:none">
+			<h4 class="carousel_title get_list">12获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">5</li>
+							<li class="popele_infor">55555</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--12-->
+		<div class="carousel" id="chang_month_12" style="display:none">
+			<h4 class="carousel_title get_list">季度获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">5</li>
+							<li class="popele_infor">55555</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--13-->
+		<div class="carousel" id="chang_month_13" style="display:none">
+			<h4 class="carousel_title get_list">年度获奖名单</h4>
+			<div class="people_list">
+				<div class="row">
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img">5</li>
+							<li class="popele_infor">55555</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li class="people_img"></li>
+							<li class="popele_infor"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+</div>
+
+<!--获奖名单结束-->
+<!--大赛奖项开始-->
+<div class="content">
+<div class="container">
+	<div class="box">
+		<h3>> 大赛奖项</h3>
+		<div class="row">
+			<div class="col-md-12 details comm">
+				<img src="imgs/awards.png">
+				<p class="awards_show two">* 奖项同一时间颁发(除年度冠军以轿车提现外)，其他奖项获得者均以现金形式发放(税前)，具体时间以官网大赛公告为准。</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--大赛奖项结束-->
+<!--大赛流程开始-->
+<div class="content">
+<div class="container">
+	<div class="box">
+		<h3>> 大赛流程</h3>
+		<div class="row">
+			<div class="col-md-12 details comm">
+				<img src="imgs/flow.png"></div>
+		</div>
+	</div>
+</div>
+</div>
+<!--大赛流程结束-->
+<!--content end-->
+<!--footer begin-->
+<div class="footer">
+<div class="container footer_out">
+	<div class="row footer_content">
+		<div class="col-md-6">
+			<ul class="footer_left">
+				<li class="sp_footer letter">
+					<span>
+						<img src="imgs/footer_4.png" ></span>
+					<p>zw-service@zwoil.com</p>
+				</li>
+				<li class="sp_footer second_border">
+					<span>
+						<img src="imgs/footer_3.png" ></span>
+					<p>400-6886-597 （9:00–18:00）</p>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<ul class="footer_left footer_right">
+				<li class="sp_footer qq">
+					<span>
+						<img src="imgs/footer_2.png" ></span>
+					<p>4006886597</p>
+				</li>
+				<li class="li_right">
+					<span>
+						<img src="imgs/footer_1.png" ></span>
+					<p>上海市闵行区吴中路1779号万象城A栋606室</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+<div class="footer_under">
+<div class="container">
+	<p class="three">Copyright© 2016 Zwoil International 保留所有权利</p>
+</div>
+</div>
+<!--footer end-->
+
+<div id="top_top">
+<a href="#maodian">
+	<img src="imgs/top.png" style="width:50px;-moz-opacity:0.5;filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5; "></a>
+</div>
+
+<!--弹出层时背景层DIV-->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top:4%; margin-right:5%;">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="modal-header">
+
+			<h4 class="modal-title" id="exampleModalLabel">
+				<img src="imgs/person_login.png"></h4>
+		</div>
+		<div class="modal-body">
+			<form>
+				<div class="form-group"> <i class="icon-user"></i>
+					<input type="text" class="form-control lock" id="input_id" placeholder="请输入在握实盘账户ID" value="请输入在握实盘账户ID"  
+						onfocus="if(value=='请输入在握实盘账户ID'){this.style.color='black';value=''}" 
+						onblur="if(value==''){this.style.color='#ccc';value='请输入在握实盘账户ID'}" />
+					<!--<a href="#" id="clearInput" onclick="clearInput()">x</a>
+				-->
+			</div>
+			<div class="form-group"> <i class=" icon-user icon"></i>
+				<input type="text" class="form-control" id="input_password" placeholder="初始化密码为您身份证后六位"  value="初始化密码为您身份证后六位" 
+						onfocus="if(value=='初始化密码为您身份证后六位'){this.style.color='black';value=''}" 
+						onblur="if(value==''){this.style.color='#ccc';value='初始化密码为您身份证后六位'}"/>
+			</div>
+			<div class="black_form_pas">
+				<label style="padding-left: 8%;">
+					<input type="checkbox" class="black_form_checkbox" name="remember">记住用户名</label>
+				<a style="margin-left:44%;" href="###" class="under_line left_line">忘记密码?</a>
+			</div>
+			<input style="color:white;width:81%;height:48px;" type="submit" class="black_form_sub" name="login" value="登 录">
+			<p class="register">
+				<a href="#" class="under_line">注册实盘账号</a>
+			</p>
+			<!--<img src="imgs/people.png" style="position:absolute; left:16%; bottom:85%">
+			<img src="imgs/lock.png" style="position:absolute; left:16%; bottom:61%">--></form>
+	</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/swiper.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<!-- Swiper JS -->
+
+<!-- Initialize Swiper -->
+</body>
+</html>
